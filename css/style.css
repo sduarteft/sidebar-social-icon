@@ -1,0 +1,72 @@
+body , html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.sidebar{
+    margin-left: -100px;
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: #2c3e50;
+    overflow: hidden;
+    transition: all .5s;
+}
+.side{
+    margin-left: 0;
+}
+
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+.sidebar ul li{
+    list-style: none;
+}
+.sidebar ul li a{
+    color: #fff;
+    text-decoration: none;
+    height: 100px;
+    width: 100%;
+    font-size: 35px;
+    line-height: 110px;
+    text-align: center;
+    display: block;
+ 
+}
+
+.instagram:hover{
+    background: #c53786;
+    transition: all .6s;
+}
+.facebook:hover{
+    background: #3b5998;
+    transition: all .6s;
+}
+.youtube:hover{
+    background: #cc181e;
+    transition: all .6s;
+}
+.twitter:hover{
+    background: #00aced;
+    transition: all .6s;
+}
+.google:hover{
+    background: #bfbfbf;
+    transition: all .6s;
+}
+
+
+.btn{
+    cursor: pointer;
+    float: left;
+    padding: 5px 12px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    background: #2c3e50;
+    margin:   15px 10px;
+}
